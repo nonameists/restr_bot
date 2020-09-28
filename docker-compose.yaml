@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  bot:
+    image: nonameists/resta_bot:v1
+    restart: always
+
+    env_file:
+      - ./.env
